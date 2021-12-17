@@ -1,0 +1,59 @@
+<head>
+  <title>映画ドットコムランキング</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+        crossorigin="anonymous">
+  <div>
+    <br>
+    <p>
+      <font size=4>&nbsp;&nbsp;映画ドットコムのランキングです(非公式)．</font>
+    </p>
+    <p>
+      <font size=4>&nbsp;&nbsp;評価数が50以上の作品についてのみ集計しています．</font>
+    </p>
+  </div>
+</head>
+<body>
+
+  <div class="container-fluid">
+
+    <div class="row">
+  
+      <div class="p-1 col-sm-12 sortable-table">
+  
+        <table class="table table-hover table-bordered" id="my-table1">
+          <thead>
+            <tr>
+              <th scope="col" data-id="name" sortable>
+                名前
+              </th>
+              <th scope="col" data-id="rating" sortable>
+                レーティング
+              </th>
+              <th scope="col" data-id="num" sortable>
+                評価数
+              </th>
+              <th scope="col" data-id="year" sortable>
+                制作年
+              </th>
+              <th scope="col" data-id="japan" sortable>
+                邦画/洋画
+              </th>
+              <th scope="col" data-id="url" sortable>
+                url
+              </th>
+            </tr>
+          </thead>
+        </table>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js" charset="utf-8"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@riversun/sortable-table/lib/sortable-table.js" charset="utf-8"></script>
+  <script src="./js/scripts.js" charset="utf-8"></script>
+
+</body>
+
